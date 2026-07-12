@@ -19,8 +19,6 @@ const Header = () => {
             <li className="sm:text-[14px] text-[12px] text-[#9CA3AF] hover:text-[#FFF] cursor-pointer font-medium">
               <Link
                 to="about"
-                spy={true}
-                smooth={true}
                 duration={500}
                 offset={-100}
                 activeClass="!border-b !border-[#fff] !text-[#fff]"
@@ -32,10 +30,9 @@ const Header = () => {
             <li className="sm:text-[14px] text-[12px] text-[#9CA3AF] hover:text-[#FFF] cursor-pointer font-medium">
               <Link
                 to="projects"
-                spy={true}
-                smooth={true}
                 duration={500}
                 offset={-100}
+                activeClass="!border-b !border-[#fff] !text-[#fff]"
               >
                 Projects
               </Link>
@@ -44,10 +41,9 @@ const Header = () => {
             <li className="sm:text-[14px] text-[12px] text-[#9CA3AF] hover:text-[#FFF] cursor-pointer font-medium">
               <Link
                 to="skills"
-                spy={true}
-                smooth={true}
                 duration={500}
                 offset={-100}
+                activeClass="!border-b !border-[#fff] !text-[#fff]"
               >
                 Skills
               </Link>
@@ -56,10 +52,9 @@ const Header = () => {
             <li className="sm:text-[14px] text-[12px] text-[#9CA3AF] hover:text-[#FFF] cursor-pointer font-medium">
               <Link
                 to="contact"
-                spy={true}
-                smooth={true}
                 duration={500}
                 offset={-100}
+                activeClass="!border-b !border-[#fff] !text-[#fff]"
               >
                 Contact
               </Link>
@@ -97,10 +92,9 @@ const Header = () => {
           <li className="text-[#9CA3AF] hover:text-white text-lg cursor-pointer">
             <Link
               to="about"
-              spy={true}
-              smooth={true}
               duration={500}
               offset={-100}
+              activeClass="!border-b !border-[#fff] !text-[#fff]"
             >
               About
             </Link>
@@ -109,10 +103,9 @@ const Header = () => {
           <li className="text-[#9CA3AF] hover:text-white text-lg cursor-pointer">
             <Link
               to="projects"
-              spy={true}
-              smooth={true}
               duration={500}
               offset={-100}
+              activeClass="!border-b !border-[#fff] !text-[#fff]"
             >
               Projects
             </Link>
@@ -121,10 +114,9 @@ const Header = () => {
           <li className="text-[#9CA3AF] hover:text-white text-lg cursor-pointer">
             <Link
               to="skills"
-              spy={true}
-              smooth={true}
               duration={500}
               offset={-100}
+              activeClass="!border-b !border-[#fff] !text-[#fff]"
             >
               Skills
             </Link>
@@ -133,10 +125,9 @@ const Header = () => {
           <li className="text-[#9CA3AF] hover:text-white text-lg cursor-pointer">
             <Link
               to="contact"
-              spy={true}
-              smooth={true}
               duration={500}
               offset={-100}
+              activeClass="!border-b !border-[#fff] !text-[#fff]"
             >
               Contact
             </Link>

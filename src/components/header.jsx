@@ -19,9 +19,9 @@ const Header = () => {
             <li className="sm:text-[14px] text-[12px] text-[#9CA3AF] hover:text-[#FFF] cursor-pointer font-medium">
               <Link
                 to="about"
-                duration={500}
+                duration={300}
                 offset={-100}
-                activeClass="!border-b !border-[#fff] !text-[#fff]"
+              
               >
                 About
               </Link>
@@ -30,9 +30,9 @@ const Header = () => {
             <li className="sm:text-[14px] text-[12px] text-[#9CA3AF] hover:text-[#FFF] cursor-pointer font-medium">
               <Link
                 to="projects"
-                duration={500}
+                duration={300}
                 offset={-100}
-                activeClass="!border-b !border-[#fff] !text-[#fff]"
+              
               >
                 Projects
               </Link>
@@ -41,9 +41,9 @@ const Header = () => {
             <li className="sm:text-[14px] text-[12px] text-[#9CA3AF] hover:text-[#FFF] cursor-pointer font-medium">
               <Link
                 to="skills"
-                duration={500}
+                duration={300}
                 offset={-100}
-                activeClass="!border-b !border-[#fff] !text-[#fff]"
+              
               >
                 Skills
               </Link>
@@ -52,9 +52,9 @@ const Header = () => {
             <li className="sm:text-[14px] text-[12px] text-[#9CA3AF] hover:text-[#FFF] cursor-pointer font-medium">
               <Link
                 to="contact"
-                duration={500}
+                duration={300}
                 offset={-100}
-                activeClass="!border-b !border-[#fff] !text-[#fff]"
+              
               >
                 Contact
               </Link>
@@ -92,9 +92,9 @@ const Header = () => {
           <li className="text-[#9CA3AF] hover:text-white text-lg cursor-pointer">
             <Link
               to="about"
-              duration={500}
+              duration={300}
               offset={-100}
-              activeClass="!border-b !border-[#fff] !text-[#fff]"
+            
             >
               About
             </Link>
@@ -103,9 +103,9 @@ const Header = () => {
           <li className="text-[#9CA3AF] hover:text-white text-lg cursor-pointer">
             <Link
               to="projects"
-              duration={500}
+              duration={300}
               offset={-100}
-              activeClass="!border-b !border-[#fff] !text-[#fff]"
+            
             >
               Projects
             </Link>
@@ -114,9 +114,9 @@ const Header = () => {
           <li className="text-[#9CA3AF] hover:text-white text-lg cursor-pointer">
             <Link
               to="skills"
-              duration={500}
+              duration={300}
               offset={-100}
-              activeClass="!border-b !border-[#fff] !text-[#fff]"
+            
             >
               Skills
             </Link>
@@ -125,9 +125,9 @@ const Header = () => {
           <li className="text-[#9CA3AF] hover:text-white text-lg cursor-pointer">
             <Link
               to="contact"
-              duration={500}
+              duration={300}
               offset={-100}
-              activeClass="!border-b !border-[#fff] !text-[#fff]"
+            
             >
               Contact
             </Link>

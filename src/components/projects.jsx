@@ -10,7 +10,7 @@ const Projects = () => {
           My projects
         </h2>
         <h2 className='capitalize xl:text-[36px] lg:text-[34px] md:text-[32px] sm:text-[30px] text-[28px] text-[#fff] font-bold '>
-          Basic Information
+          Featured Projects
         </h2>
         <div className='grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-5 mt-7 sm:mt-9 '>
           <div className='rounded-[18px] bg-[#FFFFFF08] border border-[#FFFFFF1A] relative overflow-hidden max-w-[450px] mx-auto backdrop-blur-[10px] '>
